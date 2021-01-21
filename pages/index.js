@@ -20,13 +20,13 @@ export default function Home() {
           />
         </div>
 
-        <div className="flex flex-col justify-between h-4/5 md:flex-row">
+        <div className="flex flex-col justify-between h-4/5 xl:flex-row">
           <div className="flex flex-col justify-start">
             <h1 className="py-3.5 text-white text-5xl md:text-9xl py-8">Sonhe,</h1>
             <h1 className="py-3.5 text-white text-5xl md:text-9xl py-8">Imagine,</h1>
             <h1 className="py-3.5 text-white text-5xl md:text-9xl py-8">Idealize!</h1>
           </div>
-          <div className="mt-5 flex">
+          <div className="mt-5 flex justify-center">
             <Image
               src="/hero.svg"
               alt="Hero"
