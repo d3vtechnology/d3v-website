@@ -26,7 +26,7 @@ export default function Home() {
             <h1 className="py-3.5 text-white text-5xl md:text-9xl py-8">Imagine,</h1>
             <h1 className="py-3.5 text-white text-5xl md:text-9xl py-8">Idealize!</h1>
           </div>
-          <div className="mt-5">
+          <div className="mt-5 flex">
             <Image
               src="/hero.svg"
               alt="Hero"
