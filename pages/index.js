@@ -26,12 +26,14 @@ export default function Home() {
             <h1 className="py-3.5 text-white text-5xl md:text-9xl py-8">Imagine,</h1>
             <h1 className="py-3.5 text-white text-5xl md:text-9xl py-8">Idealize!</h1>
           </div>
-          <Image
-            src="/hero.svg"
-            alt="Hero"
-            width={700}
-            height={700}
-          />
+          <div className="mt-5">
+            <Image
+              src="/hero.svg"
+              alt="Hero"
+              width={600}
+              height={600}
+            />
+          </div>
         </div>
       </section>
     </div>
