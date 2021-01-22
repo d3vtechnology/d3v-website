@@ -12,7 +12,13 @@ module.exports = {
     },
     fontFamily: {
       'body': ['Calistoga'],
-     }
+    },
+    textColor: theme => theme('colors'),
+    textColor: {
+      'telegram': '#38A3E6',
+      'whatsapp': '#06d755',
+      'white': '#fff'
+    }
   },
   variants: {
     extend: {},
